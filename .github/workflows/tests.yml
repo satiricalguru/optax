@@ -2,7 +2,7 @@ name: tests
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "ci/verify-optax-1868"]
   pull_request:
     branches: ["main"]
   schedule:
